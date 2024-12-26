@@ -1,1 +1,93 @@
-/* your code here */
+footer {
+  background-color: black;
+  color: gray; 
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+.content {
+  max-width: 900px; 
+  margin: 10 auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-bottom: 30px;
+}
+
+.logo_name {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.media-icons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.media-icons a {
+  color: gray;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.media-icons a:hover {
+  color: white; 
+}
+
+.link-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.link-boxes .box1,
+.link-boxes .box2,
+.link-boxes .box3,
+.link-boxes .box4,
+.link-boxes .box5 {
+  flex: 1;
+  min-width: 10px; 
+}
+
+.link-boxes h3 {
+  color: white; /* Headings in white */
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.link-boxes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.link-boxes ul li {
+  margin: 8px 0;
+}
+
+.link-boxes ul li a {
+  color: gray;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link-boxes ul li a:hover {
+  color: white;
+}
+
+.bottom-details {
+  text-align: left;
+  margin-top: 20px;
+  color: gray; /* Footer copyright */
+}
+
+.bottom-details p {
+	margin:0px;
+}
