@@ -69,13 +69,12 @@ footer {
 }
 
 .link-boxes ul li {
-  margin: 8px 0;
+  margin: 5px 0;
 }
 
 .link-boxes ul li a {
   color: gray;
   text-decoration: none;
-  transition: color 0.3s;
 }
 
 .link-boxes ul li a:hover {
@@ -85,7 +84,7 @@ footer {
 .bottom-details {
   text-align: left;
   margin-top: 20px;
-  color: gray; /* Footer copyright */
+  color: gray;
 }
 
 .bottom-details p {
